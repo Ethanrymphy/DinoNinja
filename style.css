@@ -3,12 +3,7 @@ html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
 body{
-  background: #DFDCE3;
-}
-
-h1{
-  color: #4ABDAC;
-  text-shadow:  0 0 5px rgba(255,255,255,0.8)
+  background: #333;
 }
 .centered{
   display: flex;
