@@ -5,6 +5,33 @@ html { box-sizing: border-box; }
 body{
   background: #333;
 }
+
+.alternate1{
+width:50%;
+height:100%;
+opacity: .20;
+filter: alpha(opacity=20);
+background-color:red;
+position:fixed;
+}
+
+.alternate2{
+width:50%;
+height:100%;
+opacity: .20;
+filter: alpha(opacity=20);
+    background-color:blue;
+margin-left:50%;
+position:fixed;
+align-items: center;
+
+}
+
+.fullscreen{
+  width:100%;
+  height:100%;
+
+}
 .centered{
   display: flex;
   justify-content: center;
